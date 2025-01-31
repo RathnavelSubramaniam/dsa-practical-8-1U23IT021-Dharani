@@ -73,7 +73,7 @@ int data,data1;
         tail.next = newNode;
         tail = newNode;
       }
-      System.out.println("Element Inserted at the End");      
+      System.out.println("Element Inserted");      
     }       
 public void displayList() {
         Node current = head;
