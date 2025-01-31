@@ -70,8 +70,12 @@ int data,data1;
         tail = newNode;
       }   
       else{
-        tail.next = newNode;
-        tail = newNode;
+        Node temp = head;
+        while(temp.next!=null)
+        {
+          temp = temp.next;
+        }
+        temp.next = newNode;
       }
       System.out.println("Element Inserted");      
     }       
